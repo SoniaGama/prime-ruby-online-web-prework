@@ -1,6 +1,5 @@
 def prime(number)
   number_aux = 0
-  
   (1..number).each do |n|
      if number % n == 0
       number_aux += 1
