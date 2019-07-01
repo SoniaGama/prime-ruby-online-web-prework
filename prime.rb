@@ -1,4 +1,4 @@
-def prime?(number)
+def prime?
   
   number_aux = 0
   
