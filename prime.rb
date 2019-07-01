@@ -1,14 +1,14 @@
 def prime?(numero)
   
-  numero_auxiliar = 0
+  number_aux = 0
   
   1.step numero do |n|
     if numero % n == 0
-      numero_auxiliar += 1
+      number_aux += 1
     end
   end 
  
-  if numero_auxiliar == 2
+  if number_aux == 2
     true 
   else
     false 
