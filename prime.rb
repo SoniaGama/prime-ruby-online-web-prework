@@ -10,4 +10,5 @@ def prime?(number)
   else
     false 
   end
+  #Muestra si el numero dado solo tiene dos divisores, como debe ser para un número primo
 end
