@@ -1,14 +1,10 @@
 def prime(number)
-  
-  #numbers = 1..number
-  
   number_aux = 0
   
   (1..number).each do |n|
-    
-    
-    
-    
+     if number % n == 0
+      number_aux += 1
+     end
   end
 
   1.step number do |n|
