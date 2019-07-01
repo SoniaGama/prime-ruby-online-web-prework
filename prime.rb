@@ -8,6 +8,11 @@ def prime(number)
     
   }
   
+  [1, 2, 3].each do |n|
+  text = "Current number is: #{n}"
+  puts text
+end
+  
   1.step number do |n|
     if number % n == 0
       number_aux += 1
