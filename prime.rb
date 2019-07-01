@@ -1,8 +1,10 @@
 def prime(number)
   
-  numbers = 1..number
+  #numbers = 1..number
   
   number_aux = 0
+  
+  (1..number).each
   
   1.step number do |n|
     if number % n == 0
