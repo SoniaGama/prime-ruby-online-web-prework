@@ -1,5 +1,7 @@
 def prime(number)
   
+  numbers = 1..number
+  
   number_aux = 0
   
   1.step number do |n|
