@@ -4,15 +4,13 @@ def prime(number)
   
   number_aux = 0
   
-  (1..number).each{|x|
+  (1..number).each do |n|
     
-  }
-  
-  [1, 2, 3].each do |n|
-  text = "Current number is: #{n}"
-  puts text
-end
-  
+    
+    
+    
+  end
+
   1.step number do |n|
     if number % n == 0
       number_aux += 1
