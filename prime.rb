@@ -4,7 +4,9 @@ def prime(number)
   
   number_aux = 0
   
-  (1..number).each
+  (1..number).each{|x|
+    
+  }
   
   1.step number do |n|
     if number % n == 0
