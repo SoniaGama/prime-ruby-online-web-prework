@@ -5,17 +5,9 @@ def prime(number)
       number_aux += 1
      end
   end
-
-  1.step number do |n|
-    if number % n == 0
-      number_aux += 1
-    end
-  end 
- 
   if number_aux == 2
     true 
   else
     false 
   end
-  
 end
