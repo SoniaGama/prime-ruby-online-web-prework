@@ -1,9 +1,9 @@
-def prime?(numero)
+def prime?(number)
   
   number_aux = 0
   
-  1.step numero do |n|
-    if numero % n == 0
+  1.step number do |n|
+    if number % n == 0
       number_aux += 1
     end
   end 
